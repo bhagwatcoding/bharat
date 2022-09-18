@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /sitemap.xml
+Allow: /news-sitemap.xml
+Allow /*
+
+Disallow: /admin
+Disallow: /admin*
+Disallow: /admin/
+
+User-agent: Googlebot-News
+Sitemap: https://www.winfoa.com/sitemap.xml
